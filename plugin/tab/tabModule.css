@@ -1,0 +1,102 @@
+.unselectable, .tab .tab-legend > li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.tab {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 10px;
+  overflow: hidden; }
+
+.tab > .tab-legend, .tab > .tab-content, .tab-legend > li, .tab-content > li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.tab .tab-legend {
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden; }
+
+.tab .tab-legend > li {
+  padding: 15px 15px;
+  color: #555a56;
+  font-size: 16px;
+  /*text-transform: uppercase;*/
+  float: left;
+  cursor: pointer; }
+  
+ .tab .tab-legend > li i{
+	 font-size:20px;}
+
+.tab .tab-legend > li {
+ background-color: #eeeeee; }
+
+.tab .tab-legend .active {
+  padding: 13px 15px 15px 15px;
+  background-color: #FFF;
+  color: #00382f; }
+
+.tab .tab-content {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.tab .tab-content > li {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #00634e; }
+
+/*Horizontal specific*/
+.tab-horiz .tab-legend {
+  width: 100%; }
+
+.tab-horiz .tab-legend > li {
+  border-top: solid 1px #CCC;
+  border-right: solid 1px #CCC;
+  border-bottom: solid 1px #CCC; }
+
+.tab.tab-horiz .tab-legend .active {
+  border-top: solid 4px #00382f;
+  border-bottom: 0; }
+
+.tab-horiz .tab-legend > li:first-child {
+  border-left: solid 1px #CCC; }
+
+.tab-horiz .tab-content {
+  width: 100%; }
+
+/*Vertical specific*/
+.tab-vert .tab-legend {
+  width: 20%;
+  float: left; }
+
+.tab.tab-vert .tab-legend .active {
+  border-right: solid 3px #f05355;
+    background: #555;
+    color: #fff; }
+
+.tab-vert .tab-legend > li {
+  width: 100%;
+  border-top: solid 1px #CCC;
+  border-right: solid 1px #CCC;
+  margin: 5px 0px; }
+
+.tab-vert .tab-legend > li.active {
+  border-right: 0; }
+
+.tab-vert .tab-content {
+  width: 80%;
+  display: block;
+  float: left;
+      margin-top: 5px; }
+
+.tab-vert .tab-content > li {
+  min-height: 100%;
+  display: block;
+  padding:0px 10px; }
+
+
+.whatever{
+	display:none !important;}
